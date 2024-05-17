@@ -2,6 +2,7 @@
 import { useState } from "react";
 // import QRScanner from "../assets/scanner";
 import Trolley from "../assets/Trolley.gif"
+import qr from "../assets/qr.jpg"
 function Page1(){
     let showdate=new Date();
 
@@ -31,7 +32,7 @@ function Page1(){
             </div>
             <div className="flex justify-center">
                 <button  className="h-16 flex justify-evenly items-center bg-blue-500 py-1 px-2 w-auto  rounded-2xl space-x-3 ">
-                    <img className="h-full rounded-2xl" src="https://as2.ftcdn.net/v2/jpg/02/24/13/65/1000_F_224136572_1J9m5C7LLJLS6NjV0tFJ8Mh8swZwrt9j.jpg" alt="qr-code"/>
+                    <img className="h-full rounded-2xl" src={qr} alt="qr-code"/>
                     <h2 className="font-medium text-2xl w-fit ">SCAN THE TROLLEY</h2>
                 </button>
                 {/* <QRScanner onScan={handleScan}/>
