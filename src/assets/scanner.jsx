@@ -1,6 +1,4 @@
 import React, { useState, useRef } from 'react';
-
-
 const QrReader = () => {
   const [data, setData] = useState('');
   const qrRef = useRef(null);
