@@ -1,0 +1,34 @@
+
+[
+    {
+      "id": 1,
+      "imageUrl": "",
+      "description": "A scenic view of a mountain range during sunrise."
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://example.com/images/image2.jpg",
+      "description": "A close-up shot of a flower with dew drops."
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://example.com/images/image3.jpg",
+      "description": "A bustling city street with high-rise buildings and people walking."
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://example.com/images/image4.jpg",
+      "description": "A peaceful beach with clear blue water and white sand."
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://example.com/images/image5.jpg",
+      "description": "A starry night sky with the Milky Way galaxy visible."
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://example.com/images/image6.jpg",
+      "description": "A beautiful sunset over a calm lake surrounded by trees."
+    }
+  ]
+  
