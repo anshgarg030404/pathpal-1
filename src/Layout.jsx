@@ -4,7 +4,10 @@ import Nav from "./components/nav";
 function Layout(){
     return(
         <>
-            <Outlet/>
+            <div className="pb-10">
+                <Outlet/>
+
+            </div>
             <Nav />
         </>
     )
