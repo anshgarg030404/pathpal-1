@@ -9,7 +9,7 @@ import Layout from './Layout.jsx'
 import Page2 from './components/page-2.jsx'
 import Page3 from './components/page-3.jsx'
 import Page4 from './components/page-4.jsx'
-import Qr from './components/qr.jsx'
+// import Qr from './components/qr.jsx'
 
 
 const router= createBrowserRouter(createRoutesFromElements(
@@ -18,7 +18,7 @@ const router= createBrowserRouter(createRoutesFromElements(
     <Route path="aim" element={<Page2/>}/>
     <Route path="team" element={<Page3/>}/>
     <Route path="gallery" element={<Page4/>}/>
-    <Route path="qr" element={<Qr/>}/>
+    {/* <Route path="qr" element={<Qr/>}/> */}
 
   </Route>
 ))
